@@ -26,7 +26,7 @@ sub setup {
 		$first = 0;
 
 		do {
-			no strict 'refs';
+			no strict 'refs';  ## no critic
 			@{"${pkgname}::ISA"} = grep { $_ ne __PACKAGE__ } @{"${pkgname}::ISA"};
 		};
 
