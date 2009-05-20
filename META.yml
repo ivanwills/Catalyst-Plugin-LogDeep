@@ -3,7 +3,7 @@ name: Catalyst-Plugin-LogDeep
 version: 0.0.1
 author:
   - 'Ivan Wills <ivan.wills@gmail.com>'
-abstract: "<One-line description of module's purpose>"
+abstract: Sets up L<Log::Deep> for Catalyst logging
 license: perl
 resources:
   license: http://dev.perl.org/licenses/
