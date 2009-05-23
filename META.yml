@@ -8,8 +8,10 @@ license: perl
 resources:
   license: http://dev.perl.org/licenses/
 requires:
+  Catalyst: 5.7
   Log::Deep: 0.0.6
 build_requires:
+  File::Spec: 0
   Test::More: 0
 provides:
   Catalyst::Plugin::LogDeep:

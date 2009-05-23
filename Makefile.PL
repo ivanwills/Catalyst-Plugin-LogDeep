@@ -9,6 +9,8 @@ WriteMakefile
           'VERSION_FROM' => 'lib/Catalyst/Plugin/LogDeep.pm',
           'PREREQ_PM' => {
                            'Test::More' => 0,
+                           'File::Spec' => 0,
+                           'Catalyst' => '5.7',
                            'Log::Deep' => '0.0.6'
                          }
         )
