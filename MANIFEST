@@ -3,8 +3,17 @@ Changes
 MANIFEST
 README
 lib/Catalyst/Plugin/LogDeep.pm
+example/MyApp.pm
+example/MyApp/Controller/Root.pm
+LICENSE
+MANIFEST.SKIP
 t/00-load.t
 t/pod-coverage.t
 t/pod.t
+t/boilerplate.t
+t/critic.t
+t/kwalitee.t
+t/perlcriticrc
+t/spelling.t
 Makefile.PL
 META.yml
