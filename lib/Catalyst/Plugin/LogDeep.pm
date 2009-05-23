@@ -30,21 +30,6 @@ sub setup {
 			@{"${pkgname}::ISA"} = grep { $_ ne __PACKAGE__ } @{"${pkgname}::ISA"};
 		};
 
-		#my $confname = lc $package;
-		#$confname =~ s/::/_/g;
-
-		#my $logpath = first { -s $_ }
-		#	( "${confname}_log.conf", "log.conf",
-		#	"../${confname}_log.conf", "../log.conf",
-		#	"/etc/${confname}_log.conf", "/etc/$confname/log.conf" );
-
-		#if (defined $logpath) {
-		#	$package->log(Catalyst::Log::Log4perl->new($logpath));
-		#}
-		#else {
-		#	$package->log(Catalyst::Log::Log4perl->new());
-		#	$package->log->warn('no log4perl configuration found');
-		#}
 		my $cfg = $package->config->{'Plugin::LogDeep'} || {};
 
 		$package->log( Log::Deep->new( %{ $cfg } ) );
