@@ -13,10 +13,11 @@ my $builder = Module::Build->new(
 	},
 	build_requires => {
 		'Test::More' => 0,
+		'File::Spec' => 0,
 	},
 	add_to_cleanup     => [ 'Catalyst-Plugin-LogDeep-*' ],
 	create_makefile_pl => 'traditional',
-	create_licence     => 1,
+	create_license     => 1,
 );
 
 $builder->create_build_script();
