@@ -17,3 +17,4 @@ t/perlcriticrc
 t/spelling.t
 example/MyApp.pm
 example/MyApp/Controller/Root.pm
+META.json

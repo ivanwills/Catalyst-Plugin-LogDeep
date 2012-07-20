@@ -16,7 +16,7 @@ use English qw/ -no_match_vars /;
 use base qw/Exporter/;
 use Class::C3::Adopt::NEXT -no_warn;
 
-our $VERSION     = version->new('0.0.2');
+our $VERSION     = version->new('0.0.3');
 
 my $first = 1;
 sub setup {
