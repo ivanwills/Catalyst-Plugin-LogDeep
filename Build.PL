@@ -16,6 +16,9 @@ my $builder = Module::Build->new(
         'Class::C3::Adopt::NEXT'           => 0,
         'parent'                           => 0,
     },
+    configure_requires => {
+        'Module::Build' => 0.38,
+    },
     build_requires => {
         'Test::More' => 0,
         'File::Spec' => 0,
