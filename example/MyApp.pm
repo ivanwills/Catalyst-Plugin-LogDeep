@@ -23,7 +23,7 @@ use Catalyst qw/
 	LogDeep
 
 /;
-our $VERSION = version->new('0.0.3');
+our $VERSION = version->new('0.0.4');
 
 # Configure the application.
 #

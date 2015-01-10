@@ -1,5 +1,17 @@
 Revision history for Catalyst-Plugin-LogDeep
 
+0.0.4   2015-01-10
+        Updating for release of version 0.0.4
+        Added missing dependencies (Ivan Wills)
+        Removed generated files (Ivan Wills)
+        Fixed version numbers (Ivan Wills)
+        Fixed dependencies (Ivan Wills)
+        Repo cleanup (Ivan Wills)
+        Updated boilerplate test (Ivan Wills)
+        Adding tag files (Ivan Wills)
+        Added configure_requires section (Ivan Wills)
+        Updated change log (Ivan Wills)
+
 0.0.3   2012-07-20
         Getting minor version release ready
         Cleaned Build.PL
