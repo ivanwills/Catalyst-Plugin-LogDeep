@@ -10,18 +10,19 @@ my $builder = Module::Build->new(
     requires          => {
         'perl'                             => 5.010,
         'Catalyst'                         => '5.7',
-        'Log::Deep'                        => '0.0.6',
         'Catalyst::Plugin::ConfigLoader'   => 0,
         'Catalyst::Plugin::Static::Simple' => 0,
         'Class::C3::Adopt::NEXT'           => 0,
+        'Log::Deep'                        => '0.0.6',
         'parent'                           => 0,
     },
     configure_requires => {
         'Module::Build' => 0.38,
     },
     build_requires => {
-        'Test::More' => 0,
         'File::Spec' => 0,
+        'Test::More' => 0,
+        'Test::Warnings' => 0,
     },
     recommends => {
         'Test::Spelling'     => 0,
