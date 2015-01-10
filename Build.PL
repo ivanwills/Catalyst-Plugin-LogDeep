@@ -8,13 +8,16 @@ my $builder = Module::Build->new(
     dist_author       => 'Ivan Wills <ivan.wills@gmail.com>',
     dist_version_from => 'lib/Catalyst/Plugin/LogDeep.pm',
     requires          => {
-        'perl'                             => 5.010,
+        'perl'                             => 5.006,
         'Catalyst'                         => '5.7',
         'Catalyst::Plugin::ConfigLoader'   => 0,
         'Catalyst::Plugin::Static::Simple' => 0,
+        'Catalyst::Runtime'                => 0,
         'Class::C3::Adopt::NEXT'           => 0,
+        'List::Util'                       => 0,
         'Log::Deep'                        => '0.0.6',
         'parent'                           => 0,
+        'version'                          => 0,
     },
     configure_requires => {
         'Module::Build' => 0.38,
