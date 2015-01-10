@@ -69,3 +69,7 @@ Debian_CPANTS.txt
 
 # Other files of interest
 errors.err
+^MYMETA\.json$
+
+.cpan.tag
+.perl.tag
