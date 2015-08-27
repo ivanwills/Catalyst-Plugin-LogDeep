@@ -4,7 +4,6 @@ example/MyApp.pm
 example/MyApp/Controller/Root.pm
 lib/Catalyst/Plugin/LogDeep.pm
 LICENSE
-Makefile.PL
 MANIFEST
 META.json
 META.yml
